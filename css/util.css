@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    
+
 }
 
 
@@ -28,8 +30,9 @@ nav {
     z-index: 100;
     right: 0;
     top: 0;
-    width: 25%;
+    width: 45%;
     position: fixed;
+    border-radius: 20px;
     background-color: #18181b;
     display: flex;
     flex-direction: column;
@@ -57,7 +60,7 @@ nav {
 .responsive_nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .nav_menu{
@@ -152,6 +155,8 @@ section,  .first {
     box-shadow: 2px 8px 17px 6px;
     border-radius: 160px;
     border: 4px solid black;
+    transition: 0.4s;
+
 
 
 }
@@ -254,6 +259,7 @@ section,  .first {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .notibody #noti-txt {
@@ -261,6 +267,11 @@ section,  .first {
     height: fit-content;
     font-size: 1.3vw;
     text-align: center;
+}
+
+#noti-txt a{
+    text-decoration: none;
+    color: white;
 }
 
 .noti-txt-inner{

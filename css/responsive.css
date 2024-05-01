@@ -14,7 +14,7 @@
     }
 
     #left_nav h2 {
-        font-size: 3.8vw;
+        font-size: 5.5vw;
     }
 
     .section,
@@ -42,20 +42,24 @@
     }
 
     .first .right_section img {
-        width: 40vw;
+        width: 50vw;
+    }
+
+    .first .right_section img:hover{
+        width: 50vw;
     }
 
     .first .left_section {
-        width: 55vw;
+        width: 69vw;
         margin-top: 35px;
     }
 
     .first .left_section a {
-        font-size: 3.1vw;
+        font-size: 4.5vw;
     }
 
     .notibody #noti-txt {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .card {
@@ -64,12 +68,20 @@
     }
 
     .card-inner span {
-        font-size: 2.9vw
+        font-size: 4vw
+    }
+
+    .cv_card span {
+        font-size: 3.5vw;
+    }
+
+    .cv_card img{
+        height: 3.4vh;
     }
 
     .circle {
-        width: 8.5vw;
-        height: 9vh;
+        width: 9.5vw;
+        height: 7.8vh;
     }
 
     .circle:nth-child(1) {
@@ -81,7 +93,8 @@
     }
 
     .notification {
-        width: 83vw;
+        width: 88vw;
+        height: 104vh;
     }
 
     .second hr {
@@ -93,11 +106,11 @@
     }
 
     .card_2_content h2 {
-        font-size: 3vw;
+        font-size: 4.4vw;
     }
 
     .education_card {
-        width: 35vw;
+        width: 42vw;
     }
 
     .education_card:hover {
@@ -105,7 +118,7 @@
     }
 
     .education_card h4 {
-        font-size: 1.9vw;
+        font-size: 2.3vw;
         margin-top: 15px !important;
     }
 
@@ -114,19 +127,19 @@
     }
 
     .card_2 {
-        width: 83vw;
+        width: 88vw;
     }
 
     .skills {
-        width: 83vw;
+        width: 88vw;
     }
 
     .skills_head span h2 {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .skills .inner_skills label h3 {
-        font-size: 2.5vw;
+        font-size: 3.4vw;
     }
 
     .inner_skills {
@@ -139,7 +152,7 @@
 
     .common_class_1,
     .percent {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .learning {
@@ -148,7 +161,7 @@
     }
 
     .purple b {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .contact_me_head h2 {
@@ -182,8 +195,21 @@
     }
 
     .cv_card{
-        width: 100px;
-        height: 20px;
+        width: 130px;
+        height: 35px;
+    }
+
+    .cv_card:hover{
+        width: 120px;
+        height: 26px;
+    }
+
+    .second a {
+        margin: 15px 0;
+    }
+
+    .card:hover{
+        transform: none;
     }
 
    
