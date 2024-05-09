@@ -480,8 +480,9 @@ section,  .first {
 }
 
 .education_card:hover {
-    height: 15vh;
+    height: 19vh;
     width: 25vw;
+
 }
 
 .card_2 {
