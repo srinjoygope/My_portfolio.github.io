@@ -37,7 +37,7 @@ gsap.to(".inner_main", {
 })
 
 function show_responsive_nav() {
-  let a = document.getElementsByClassName("responsive_nav")[0];
+  let a = document.querySelectorAll(".responsive_nav")[0];
   a.style.display = "block";
   let b = document.getElementsByClassName("nav_menu")[0];
   b.style.display = "none";

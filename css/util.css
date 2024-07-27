@@ -32,14 +32,14 @@ nav {
     top: 0;
     width: 45%;
     position: fixed;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     background-color: #18181b;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     justify-content: flex-start;
     display: none;
-    transition: 0.8s;
+    transition: 0.7s;
 }
 
 .responsive_nav img{
@@ -554,9 +554,8 @@ section,  .first {
     
 }
 
-.fixed_ele:hover{
-    width: 3.4vw;
-    height: 8vh;
+.fixed_ele:active{
+    transform: scale(1.5);
 }
 
 .fixed_ele img{
