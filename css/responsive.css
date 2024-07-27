@@ -239,6 +239,12 @@
     .project_slider{
         width: 85%;
     }
+    .project_head{
+        font-size: 10px;
+        font-weight: 500;
+        padding-left: 20px;
+
+    }
 
    
 }
