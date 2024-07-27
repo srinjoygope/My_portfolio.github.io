@@ -22,7 +22,7 @@
             <div id="right_nav">
                 <ul>
                     <li><a href="#about_me">About Me</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a href="#project_id">Projects</a></li>
                     <li><a href="#contact_me">Contact Me</a></li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
             </div>
         </nav>
     </header>
-    
+
 
     <!-- Main content -->
     <!-- 1st content -->
@@ -56,14 +56,14 @@
             <a href="https://github.com/srinjoygope">
                 <div class="fixed_ele">
                     <img src="img/github_icon.png" width="100%" alt="">
-            </div>
+                </div>
             </a>
             <a href="https://www.linkedin.com/in/srinjoy-gope-7b0b44253/">
                 <div class="fixed_ele">
                     <img src="img/linkedin_icon.png" width="100%" alt="">
-            </div>
+                </div>
             </a>
-            
+
         </div>
         <section class="first" id="first_responsive">
             <div class="left_section">
@@ -146,9 +146,10 @@
             <!-- 3rd content -->
 
             <!-- <hr class="third_sec_hr"> -->
-            <div id="edu_background">
+            <!-- <div id="edu_background">
 
-            </div>
+            </div> -->
+            <div id="edu_background"></div>
             <div class="card_2">
                 <div class="tools">
                     <div class="circle_2">
@@ -203,6 +204,45 @@
                     </section>
                 </div>
 
+            </div>
+
+            <!-- Projects -->
+            <div id="project_id"></div>
+            <div class="project_section">
+                <div class="project_head">
+                    <h2>>> My Projects</h2>
+                </div>
+            <div class="projects_contain">
+                <button 
+                onclick={sliding_prev()}
+                class="prev_btn"><</button>
+                <div class="project_slider">
+                    <div class="project">
+                        <img src="/img/Project_1.png" alt="">
+                        <div class="project_name">
+                            E-commmerce site
+                        </div>
+                        <a href="https://e-commerce-app-azure-eta.vercel.app/">
+                            <button class="visit">Visit</button>
+                        </a>
+                        <p>This is an e-commerce site made using ReactJS. I have only designed the front-end part of this website yet. And further backend part is still in development process.</p>
+                    </div>
+                    <div class="project">
+                        <img src="/img/Project_2.png" alt="">
+                        <div class="project_name">
+                            Weather app using ReactJS
+                        </div>
+                        <a href="https://weather-app-delta-wine.vercel.app/">
+                            <button class="visit">Visit</button>
+                        </a>
+                        <p>This is an weather application created using ReactJS. Fetching api like functionalities were used in this application.</p>
+                    </div>
+                </div>
+                <button 
+                onclick="sliding_next()"
+                class="next_btn">></button>
+
+            </div>
             </div>
 
             <!-- Skills -->

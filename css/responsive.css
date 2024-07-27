@@ -5,7 +5,9 @@
     .fixed_ele {
         height: 4.3vh;
     }
-
+    .projects_contain{
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 463px) {
@@ -214,6 +216,28 @@
 
     .card:hover{
         transform: none;
+    }
+
+    .project_section{
+        width: 88vw;
+    }
+    .prev_btn, .next_btn{
+        font-size: 30px;
+    }
+    .project p{
+        font-size: 9px;
+    }
+    .project_name{
+        font-size: 13px;
+    }
+    .projects_contain{
+        height: 250px;
+    }
+    .project img{
+        width: 80%;
+    }
+    .project_slider{
+        width: 85%;
     }
 
    
